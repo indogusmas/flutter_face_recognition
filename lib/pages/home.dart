@@ -7,7 +7,6 @@ import 'package:flutter_face_recognition/pages/sign-up.dart';
 import 'package:flutter_face_recognition/services/camera.service.dart';
 import 'package:flutter_face_recognition/services/face_detector_service.dart';
 import 'package:flutter_face_recognition/services/ml_service.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key? key}) : super(key: key);
@@ -18,7 +17,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   MLService _mlService = locator<MLService>();
   FaceDetectorService _mlKitService = locator<FaceDetectorService>();
-  CameraService _cameraService = locator<CameraService>();
   bool loading = false;
 
   @override

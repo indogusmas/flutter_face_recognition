@@ -40,9 +40,9 @@ class SignInState extends State<SignIn> {
 
   @override
   void dispose() {
-    // _cameraService.dispose();
-    // _mlService.dispose();
-    // _faceDetectorService.dispose();
+    _cameraService.dispose();
+    _mlService.dispose();
+    _faceDetectorService.dispose();
     super.dispose();
   }
 

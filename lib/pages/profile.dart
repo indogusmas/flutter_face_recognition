@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_face_recognition/pages/widgets/app_button.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'home.dart';
 
 class Profile extends StatelessWidget {
@@ -92,10 +91,6 @@ class Profile extends StatelessWidget {
                             ),
                             SizedBox(
                               width: 10,
-                            ),
-                            FaIcon(
-                              FontAwesomeIcons.github,
-                              color: Colors.white,
                             )
                           ],
                         ),
